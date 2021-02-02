@@ -22,7 +22,7 @@ package com.pom;
 	{
 		
 
-	System.setProperty("webdriver.chrome.driver", "C:/Users/Indian/Downloads/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "D:\\Project\\pom\\drivers\\chromedriver_win32 (1)/chromedriver.exe");
 	//System.setProperty("webdriver.chrome.silentOutput","true");
 	WebDriver driver = new ChromeDriver(); 
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
